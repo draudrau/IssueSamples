@@ -1,0 +1,16 @@
+@NodaTimeIssue_HostAddress = http://localhost:5019
+
+GET {{NodaTimeIssue_HostAddress}}/health
+Accept: application/json
+
+###
+
+GET {{NodaTimeIssue_HostAddress}}/data/
+Accept: application/json
+
+###
+
+GET {{NodaTimeIssue_HostAddress}}/data/instant
+Accept: application/json
+
+###
